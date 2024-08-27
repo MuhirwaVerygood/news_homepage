@@ -1,5 +1,5 @@
 import BgImage from "../assets/images/image-web-3-desktop.jpg";
-const MiddleContainer = () => {
+const Main = () => {
   return (
     <div className="flex lg:flex-row lg:mt-[2%] lg:gap-8">
       <div className="lg:w-[75%] flex flex-col">
@@ -65,4 +65,4 @@ const MiddleContainer = () => {
   );
 };
 
-export default MiddleContainer;
+export default Main;

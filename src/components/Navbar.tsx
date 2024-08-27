@@ -56,7 +56,7 @@ const Navbar = () => {
                         key={index}
                         to={link.href}
                         onClick={() => handleLinkClick(link)}
-                        className={`${
+                        className={` text-[18px] ${
                             link.visited ? "text-orange-500" : "text-gray-400"
                         }`}
                     >
