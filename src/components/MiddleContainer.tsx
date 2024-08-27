@@ -8,7 +8,7 @@ const MiddleContainer = () => {
         </div>
 
         <div className="flex lg:flex-row w-full lg:pt-[2%]">
-          <div className="w-[80%]">
+          <div className="w-[70%]">
             <h1 className="font-bold text-[40px] leading-[50px] tracking-wider ">
               The Bright <br /> Future of <br /> Web 3.0?
             </h1>
@@ -25,25 +25,25 @@ const MiddleContainer = () => {
           </div>
         </div>
       </div>
-      <div className="lg:w-[25%] bg-gray-900 lg:pt-[3%] ">
+      <div className="lg:w-[30%] bg-gray-900 lg:pt-[3%] ">
         <div className="lg:w-[90%] mx-auto flex flex-col">
           <h1 className="text-[30px] text-yellow-500 font-bold  ">New</h1>
 
           <div className="lg:pt-[5%]">
-            <h1 className="text-white font-bold text-[20px] lg:mb-2">
+            <h1 className="text-white font-bold text-[20px] lg:mb-[4%]">
               Hydrogen vs Electric cars
             </h1>
-            <p className="text-[18px] text-gray-400 lg:mb-[5%]">
+            <p className="text-[18px] text-gray-400  lg:mb-[7%]">
               Will hydrogen-fueled cars ever catch up to <br /> EVs ?
             </p>
             <hr className="border-gray-800" />
           </div>
 
           <div className="lg:pt-[5%]">
-            <h1 className="text-yellow-500 font-bold text-[20px] lg:mb-2">
+            <h1 className="text-yellow-500 font-bold text-[20px] lg:mb-[4%]">
               The Downsides of AI Artistry
             </h1>
-            <p className="text-[18px] text-gray-400 lg:mb-[5%]">
+            <p className="text-[18px] text-gray-400 lg:mb-[7%]">
               What are the possible adverse effects of <br /> on-demand AI image
               generation{" "}
             </p>
@@ -51,10 +51,10 @@ const MiddleContainer = () => {
           </div>
 
           <div className="lg:pt-[5%]">
-            <h1 className="text-white font-bold text-[20px] lg:mb-2">
+            <h1 className="text-white font-bold text-[20px] lg:mb-[4%]">
               Is VC Funding Drying Up ?
             </h1>
-            <p className="text-[18px] text-gray-400 lg:mb-[5%]">
+            <p className="text-[18px] text-gray-400 ">
               Private funding by VC firms is down 50% <br /> YOY. We take a look
               at what happens
             </p>
