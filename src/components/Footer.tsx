@@ -3,12 +3,12 @@ import LaptopPcs from  "../assets/images/image-top-laptops.jpg"
 import GrowthGaming from "../assets/images/image-gaming-growth.jpg"
 const Footer = () => {
   return (
-    <div className='md:w-full sm:mt-[5%] ss:w-[90%]    ss:mx-auto  flex lg:flex-row ss:flex-col lg:mt-[5%]  lg:gap-6 lg:pb-[2%] items-center'>
-      <div className="flex md:flex-row md:w-full  lg:w-[33%]  ss:gap-3 sm:gap-2 lg:h-[200px]   ss:h-[180px]  lg:items-center ss:items-center ">
-      <div  className="ss:w-[100px] lg:w-[200px] md:w-[70%]  ss:h-[180px]   lg:h-[200px] "
+    <div className='md:w-full  sm:mt-[5%] ss:w-[90%]    ss:mx-auto  flex lg:flex-row ss:flex-col lg:mt-[5%]  lg:gap-6 lg:pb-[2%] items-center'>
+      <div className="flex lg:flex-row lg:w-[33%]   ss:gap-3 sm:gap-2 lg:h-[200px] sm:w-full md:mt-[4%]  lg:mt-0  ss:h-[180px]  items-center ">
+      <div  className="ss:w-[100px] lg:w-[200px]  sm:w-[70%] sm:bg-cover  ss:bg-contain bg-no-repeat lg:bg-contain ss:h-[180px]   lg:h-[200px] "
         style={{
           backgroundImage: `url(${RetroPcs})`,
-          backgroundSize: "cover", // Adjust how the background image covers the div
+        //   backgroundSize: "cover", // Adjust how the background image covers the div
           backgroundPosition: "center", // Center the background image
           backgroundRepeat:"no-repeat"
 
@@ -26,11 +26,11 @@ const Footer = () => {
       </div>
 
 
-      <div className="flex lg:flex-row lg:w-[33%]   ss:gap-3 sm:gap-2 lg:h-[200px]  ss:h-[180px]  items-center ">
-      <div  className={`ss:w-[100px] lg:w-[200px] ss:h-[180px]   lg:h-[200px] `}
-        style={{
+      <div className="flex lg:flex-row lg:w-[33%]   ss:gap-3 sm:gap-2 lg:h-[200px] sm:w-full sm:mt-[4%]  lg:mt-0  ss:h-[180px]  items-center ">
+      <div  className={`ss:w-[100px] lg:w-[200px] sm:w-[70%] sm:bg-cover  ss:bg-contain bg-no-repeat lg:bg-contain ss:h-[180px]   lg:h-[200px] `}
+        style={{ 
           backgroundImage: `url(${LaptopPcs})`,
-          backgroundSize: "contain", // Adjust how the background image covers the div
+        //   backgroundSize: "contain", // Adjust how the background image covers the div
           backgroundPosition: "center", // Center the background image
           backgroundRepeat:"no-repeat"
         }}
@@ -48,11 +48,11 @@ const Footer = () => {
 
 
 
-      <div className="flex lg:flex-row lg:w-[33%]  ss:gap-3 sm:gap-2 lg:h-[200px]  ss:mt-[5%] lg:mt-0 ss:h-[180px]  items-center ">
-      <div  className="ss:w-[100px] lg:w-[180px] ss:h-[200px]   lg:h-[200px]"
+      <div className="flex lg:flex-row lg:w-[33%]  md:mb-[3%]  ss:gap-3 sm:gap-2 lg:h-[200px] sm:w-full sm:mt-[4%]  lg:mt-0  ss:h-[180px]  items-center ">
+      <div  className="ss:w-[100px] lg:w-[200px] sm:w-[70%]  ss:bg-contain  sm:bg-cover bg-no-repeat lg:bg-contain ss:h-[180px]   lg:h-[200px] "
         style={{
           backgroundImage: `url(${GrowthGaming})`,
-          backgroundSize: "contain", // Adjust how the background image covers the div
+        //   backgroundSize: "contain", // Adjust how the background image covers the div
           backgroundPosition: "center", // Center the background image
           backgroundRepeat:"no-repeat"
         }}
