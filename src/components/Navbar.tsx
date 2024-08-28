@@ -36,13 +36,13 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="flex items-center justify-between p-4 relative  bg-white  text-white">
+        <nav className="flex w-[95%] items-center mx-auto justify-between p-4 relative  bg-white  text-white">
             <div>
                 <img src={Logo} alt="Company logo" />
             </div>
 
             {/* Hamburger icon for small screens */}
-            <div className="md:hidden  self-center" onClick={toggleMenu}>
+            <div className="md:hidden " onClick={toggleMenu}>
                 <img src={isOpen ? MenuClosed : MenuOpen} alt="Menu toggle" className="w-6 h-6 cursor-pointer" />
             </div>
 
@@ -50,7 +50,7 @@ const Navbar = () => {
             <div
                 className={`${
                     isOpen ? "flex" : "hidden"
-                } flex-col md:flex md:flex-row md:gap-4 md:static  ss:absolute top-16 left-0   w-full bg-gray-800 md:bg-transparent md:w-auto`}
+                } flex-col md:flex w-full  md:flex-row md:gap-4 md:static  ss:absolute top-16     bg-gray-800 md:bg-transparent md:w-auto`}
             >
                 {navbarLinks.map((link, index) => ( 
                     <Link
