@@ -32,7 +32,7 @@ const GivenHumburger = () => {
   };
 
   return (
-    <nav className="flex md:w-full     justify-between     bg-white  text-white ">
+    <nav className="flex md:w-full     justify-between   md:py-4   bg-white  text-white ">
       <div className="ss:h-[50px]    sm:w-[30%]    ">
         <img src={Logo} alt="Company logo" />
       </div>
