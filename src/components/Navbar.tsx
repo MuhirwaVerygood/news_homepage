@@ -4,12 +4,13 @@ import { Link } from "react-router-dom";
 import MenuOpen from "../assets/images/icon-menu.svg";
 import MenuClosed from "../assets/images/icon-menu-close.svg";
 
+
+export  interface LinkSchema {
+    name: string;
+    href: string;
+    visited: boolean;
+}
 const Navbar = () => {
-    interface LinkSchema {
-        name: string;
-        href: string;
-        visited: boolean;
-    }
 
     const [navbarLinks, setNavbarLinks] = useState<LinkSchema[]>([
         { name: "Home", href: "/", visited: false },
