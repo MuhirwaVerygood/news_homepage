@@ -3,7 +3,14 @@ import { Link } from "react-router-dom";
 import MenuOpen from "../assets/images/icon-menu.svg";
 import MenuClosed from "../assets/images/icon-menu-close.svg";
 import { useState } from "react";
-import { LinkSchema } from "./Navbar";
+
+interface LinkSchema {
+  name: string;
+  href: string ;
+  visited : boolean 
+}
+
+
 const GivenHumburger = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
@@ -45,7 +52,7 @@ const GivenHumburger = () => {
        <div
                 className={`${
                     isOpen ? "flex" : "hidden"
-                } flex-col md:flex   ss:h-screen md:h-[50px] md:static  md:flex-row md:gap-2 md:ml-auto   ss:absolute top-16   ss:text-black md:text-white     md:bg-transparent `}
+                } flex-col md:flex  ss:bg-white  ss:w-full  ss:h-screen md:h-[50px] md:static  md:flex-row md:gap-2 md:ml-auto   ss:absolute top-[5vh]   ss:text-black md:text-white     md:bg-transparent `}
             >
                 {navbarLinks.map((link, index) => ( 
                     <Link
